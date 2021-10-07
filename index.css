@@ -61,37 +61,41 @@ p {
   bottom: 0;
 }
 
-/* .imageSectionWrapper h1 {
-  color: white;
-  background-color: #1c2329;
-  width: 680px;
-  text-align: right;
-  padding: 0.25em;
-  opacity: 0.97;
-  border-radius: 5px;
-  margin: 0 0 20px -60px;
-} */
-
+p {
+  font-weight: 500;
+}
 .info {
   color: white;
   background-color: #1c2329;
-  width: 680px;
   padding: 0.25em 0.25em 0.25em 3em;
   opacity: 0.97;
   border-radius: 5px;
   position: relative;
-  margin: 0 0 40px -30px;
+  margin: 0 0 20px -30px;
 }
 
 .tag p {
   margin: 15px;
 }
-
-/* .mainContent {
-  width: 75%;
+.mainContent {
+  margin-right: 40px;
 }
 
 .sideBar {
-  width: 25%;
   margin-top: 30px;
-} */
+  border: 1px black solid;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.image {
+  width: 200px;
+}
+
+.grey {
+  color: grey;
+}
+.text {
+  font-size: 15px;
+  line-height: 1.3;
+}
