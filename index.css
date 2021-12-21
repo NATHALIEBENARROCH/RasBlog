@@ -46,6 +46,10 @@ p {
 .space {
   margin-bottom: 15px;
 }
+.nopadding {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
 
 .imageSection {
   /* width: 100%; */
