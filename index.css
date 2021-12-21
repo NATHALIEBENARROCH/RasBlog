@@ -61,7 +61,17 @@ p {
   background-repeat: no-repeat;
   position: relative;
 }
-
+.imageSectionWrapper2 {
+  /* width: 80%; */
+  margin: auto;
+  display: block;
+  height: 800px;
+  background-image: url(assets/Sf.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
 .blogPostInfo {
   position: absolute;
   bottom: 0;
