@@ -144,7 +144,7 @@ p {
 .row {
   display: flex;
   flex-direction: row;
-  margin: 0 0 10px;
+  margin: 0 10 10 0px;
 }
 
 .bigtext {
