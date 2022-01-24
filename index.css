@@ -144,4 +144,10 @@ p {
 .row {
   display: flex;
   flex-direction: row;
+  margin: 0 0 10px;
+}
+
+.bigtext {
+  margin-left: 10px;
+  margin-right: 10px;
 }
