@@ -118,6 +118,18 @@ p {
   background-repeat: no-repeat;
   position: relative;
 }
+
+.imageSectionWrapper5 {
+  margin: auto;
+  display: block;
+  height: 800px;
+  background-image: url(assets/image9.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
 .blogPostInfo {
   position: absolute;
   bottom: 0;
