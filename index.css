@@ -120,6 +120,7 @@ p {
 }
 
 .imageSectionWrapper9 {
+  max-width: 100%;
   margin: auto;
   display: block;
   height: 800px;
@@ -128,6 +129,7 @@ p {
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
+  background-attachment: fixed;
 }
 .blogPostInfo {
   position: absolute;
