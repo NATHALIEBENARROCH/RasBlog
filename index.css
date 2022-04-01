@@ -129,7 +129,6 @@ p {
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
-  background-attachment: fixed;
 }
 .blogPostInfo {
   position: absolute;
