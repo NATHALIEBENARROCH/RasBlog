@@ -1,2 +1,11 @@
-Redirect 301 "/article2" "https://therasblog.com/Aquamaof-breaks-ties-with-8F-and-Pure-Salmon"
-Redirect 301 "/article3" "https://therasblog.com/Head-of-8F-involved-in-cannabis-industry"
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.html$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.html [L]
+</IfModule>
+
+Redirect 301 /article2 https://therasblog.com/Aquamaof-breaks-ties-with-8F-and-Pure-Salmon
+Redirect 301 /article3 https://therasblog.com/Head-of-8F-involved-in-cannabis-industry
