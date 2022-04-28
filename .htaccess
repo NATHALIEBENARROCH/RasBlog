@@ -1,5 +1,5 @@
-RewriteEngine On
-Redirect 301 /article2/ https://therasblog.com/Aquamaof-breaks-ties-with-8F-and-Pure-Salmon/index.html
+
+
 <IfModule mod_rewrite.c>
 RewriteEngine On
 RewriteBase /
@@ -7,4 +7,5 @@ RewriteRule ^index\.html$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule . /index.html [L]
+RewriteRule ^article2/(.*)$ /Aquamaof-breaks-ties-with-8F-and-Pure-Salmon/$1 [R=301,NC,L]
 </IfModule>
