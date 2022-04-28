@@ -7,5 +7,4 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule . /index.html [L]
 </IfModule>
 
-Redirect 301 /article2 https://therasblog.com/Aquamaof-breaks-ties-with-8F-and-Pure-Salmon
-Redirect 301 /article3 https://therasblog.com/Head-of-8F-involved-in-cannabis-industry
+RewriteRule ^article2/(.*)$ /Aquamaof-breaks-ties-with-8F-and-Pure-Salmon/$1 [R=301,NC,L]
