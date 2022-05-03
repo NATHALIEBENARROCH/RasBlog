@@ -1,3 +1,8 @@
+RewriteEngine On
+ 
+RewriteRule ^article2$ /Aquamaof-breaks-ties-with-8F-and-Pure-Salmon/ [END,R=301]
+RewriteRule ^article3$ /Head-of-8F-involved-in-cannabis-industry/ [END,R=301]
+
 <IfModule mod_rewrite.c>
 RewriteEngine On
 RewriteBase /
