@@ -1,6 +1,6 @@
 RewriteEngine On
  
-RewriteRule ^article2$ https://therasblog.com/Aquamaof-breaks-ties-with-8F-and-Pure-Salmon/ [END,R=301]
+RewriteRule ^article2$ /therasblog.com/Aquamaof-breaks-ties-with-8F-and-Pure-Salmon/ [END,R=301]
 RewriteRule ^article3$ https://therasblog.com/Head-of-8F-involved-in-cannabis-industry/ [END,R=301]
 
 <IfModule mod_rewrite.c>
