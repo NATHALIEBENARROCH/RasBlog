@@ -6,8 +6,8 @@ RewriteRule ^article3$ https://therasblog.com/Head-of-8F-involved-in-cannabis-in
 <IfModule mod_rewrite.c>
 RewriteEngine On
 RewriteBase /
-RewriteRule ^index\.html$ - [L]
+RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /index.html [L]
+RewriteRule . /index.php [L]
 </IfModule>
