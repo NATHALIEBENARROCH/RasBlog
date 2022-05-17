@@ -130,6 +130,17 @@ p {
   background-repeat: no-repeat;
   position: relative;
 }
+.imageSectionWrapper12 {
+  max-width: 100%;
+  margin: auto;
+  display: block;
+  height: 800px;
+  background-image: url(assets/dicapriobezos.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
 
 .imageSectionWrapper11 {
   max-width: 100%;
