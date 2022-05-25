@@ -4,6 +4,11 @@
       "source": "/article2",
       "destination": "/Aquamaof-breaks-ties-with-8F-and-Pure-Salmon", 
       "statusCode": 301
+    },
+    { 
+      "source": "/article3",
+      "destination": "/Head-of-8F-involved-in-cannabis-industry", 
+      "statusCode": 301
     }
   ]
 }
